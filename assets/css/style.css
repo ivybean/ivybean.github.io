@@ -6,7 +6,6 @@ body,
 }
 
 
-
 .rgba-gradient {
   background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
   background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
@@ -82,6 +81,7 @@ input[type=submit]{
   margin-bottom: 20px;
   margin-top: 20px;
   width: 100%;
+  height: 70%;
 }
 
 .sidebar{
@@ -92,6 +92,7 @@ input[type=submit]{
   color: white;
   float: left;
   width: 100%;
+  height: 30%;
 }
 
 .connect{
@@ -121,4 +122,33 @@ input[type=submit]{
   color: white;
 }
 
+@media screen and(max-width: 768px) {
+  .view,
+  mask{
+    height: 100%;
+  }
+
+  .card-title{
+    clear: both;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 980px) {
+  html,
+  body,
+  header,
+  .view, {
+    height: 100%;
+  }
+}
+
+@media (max-width:640px){
+  html,
+  body,
+  header,
+  .view, {
+    height: 100%;
+  }
+}
 
