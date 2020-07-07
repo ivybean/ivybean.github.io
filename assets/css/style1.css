@@ -5,36 +5,12 @@ body,
   height: 100%;
 }
 
-@media (max-width: 740px) {
-  html,
-  body,
-  .view {
-    height: 1000px;
-  }
-}
-@media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
-}
 
-.top-nav-collapse {
-  background-color: #424f95 !important;
-}
-
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #3f4b92 !important;
-  }
-}
-
-
-h6 {
-  line-height: 1.7;
+footer{
+  padding: 25px 0;
+  clear: both;
+  border-top: 5px white;
+  text-align: center;
 }
 
 .rgba-gradient {
