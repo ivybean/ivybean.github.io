@@ -134,9 +134,23 @@ input[type=submit]{
   color: white;
 }
 
- @media screen and(max-width: 993px) and (min-width: 770px) {
-  .card-title{
-    font-size: 30px;
+ @media screen and (max-width: 500px)
+ {
+  .col{
+    width: 100%;
   }
 }
 
+@media screen and (max-width: 760px)
+ {
+  .col{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 980px)
+ {
+  .col{
+    width: 100%;
+  }
+}
