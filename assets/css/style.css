@@ -138,6 +138,7 @@ input[type=submit]{
  {
   .col{
     width: 100%;
+    font-size: small;
   }
 }
 
@@ -145,6 +146,7 @@ input[type=submit]{
  {
   .col{
     width: 100%;
+    font-size: small;
   }
 }
 
@@ -152,5 +154,6 @@ input[type=submit]{
  {
   .col{
     width: 100%;
+    font-size: small;
   }
 }
