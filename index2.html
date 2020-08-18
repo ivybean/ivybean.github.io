@@ -1,0 +1,189 @@
+<!-- HTML Bio with CSS -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Ivy Bean</title>
+
+  <!-- Links to Styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/rest.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:rgba(29, 210, 177, 0.7)">
+
+      <!--Name Card in Header-->
+      <a class="navbar-brand" href="#header" id="logo" style="color: white;">Ivy Bean</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Links in Navbar-->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- </div> -->
+    </nav>
+  </header>
+
+  <!--ABOUT ME SECTION-->
+  <div class="jumbotron jumbotron-fluid intro" id="intro">
+    <div class="container-fluid">
+      <h1>Get to know me!</h1>
+      <div class="row justify-content-center">
+        <div class="col col-img col-lg-3 col-md-3 col-sm-12">
+          <img src="assets/img/selfie.jpg" alt="Ivy Bean" class="img-fluid"
+            style="border-radius: 10px; height: 400px; align-items: center;">
+        </div>
+        <div class="col-lg-6 col-md-5 col-sm-12 mb-4">
+          <p class="bio">My name is Ivy Bean and I am currently earning a Coding Certificate through UNC Chapel Hill CodingBootcamp. After graduating from The University of North Carolina at Charlotte I have spent the last 7 yearsteaching fourth grade. During that time I also coached basketball and soccer at the elementary and middleschool level. <br> I am currently living in Asheboro, North Carolina, home to the North Carolina Zoo, while working as a tutor to students who are involved in remote learning.</p>
+        </div>
+      </div>
+
+      <!--Arrow button to portfolio-->
+      <div class="text-center">
+        <a href="#portfolio">
+          <button type="button" class="btn scroll-btn" enabled><img
+              src="https://cloudcar.com/wp-content/uploads/2018/06/gif-bounce-arrow.gif" width="60%" /></button></a>
+      </div>
+    </div>
+  </div>
+
+  <!--PORTFOLIO SECTION-->
+  <div class="jumbotron jumbotron-fluid portfolio" id="portfolio">
+    <h1>My Portfolio</h1>
+    <!--Grid row-->
+    <div class="container" id="portfolio-container">
+     <!--Date Night at Home-->
+      <div class="row">   
+        <div class="col col-8"> 
+          <div class="card portfolio-card">
+              <div class="card-info">
+                <h1 class="project-title">Date Night at Home</h1>
+                <p class="project-description">An app that can be used to easily generate three restaurants in the user's area and three movies based on user prefrences for the perfect date night at home.</p>
+                <p class="github-link">
+                  <a href="https://github.com/ivybean/project-1-operation-date-night" target="_blank" id="repo">GitHub Repo</a>
+                </p>
+                <p class="github-link">
+                  <a href="https://ivybean.github.io/project-1-operation-date-night/"target="_blank" id="deployed">Deployed Link</a>
+                </p>
+            </div>
+            <img src="assets/img/project1.png" class="card-img" alt="Project #1">
+            </div><!--/Card body-->
+          </div><!--/Col-->
+          <div class="col col-3 project-title">
+
+          </div>
+        </div><!--/row-->
+
+        
+     
+
+      <!--Password Generator-->
+      <div class="row justify-content-end">
+        <div class="col col-3 project-title">
+
+        </div>
+        <div class="col col-8">
+          <div class="card portfolio-card">
+            <div class="card-info">
+              <h1 class="project-title">Password-Generator</h1>
+              <p class="project-description">An app that can be used to easily generate a password for the user based on their prefrences. The user can choose the number of characters in their password and if numbers, lower/upper case letters, and/or special characters will be used in their password.</p>
+              <p class="github-link">
+                <a href="https://github.com/ivybean/password-generator" target="_blank" id="repo">GitHub Repo</a>
+              </p>
+              <p class="github-link">
+                <a href="https://ivybean.github.io/password-generator/" target="_blank" id="deployed">Deployed Link</a>
+              </p>
+            </div>
+            <img src="assets/img/rgp.png" class="card-img" alt="Password-Generator">
+          </div>
+        </div>
+      </div>
+
+      <!--Day Planner-->
+      <div class="row">
+        <div class="col col-8">
+          <div class="card portfolio-card">
+            <div class="card-info">
+              <h1 class="project-title">Day Planner</h1>
+              <p class="project-description">An app that can be used to organize your daily to-do list by the hour. User will type their to-do item in the hour section and it will be stored in local history and will appear even after the page is refreshed.</p>
+                <p class="github-link">
+                  <a href="https://github.com/ivybean/day-planner" target="_blank" id="repo">GitHub Repo</a>
+                </p>
+                <p class="github-link">
+                  <a href="https://ivybean.github.io/day-planner/" target="_blank" id="deployed">Deployed Link</a>
+                </p>
+            </div> 
+            <img src="assets/img/trivia.png" class="card-img" alt="Day-Planner">
+          </div>
+        </div>
+        <div class="col col-3 project-title">
+
+        </div>
+      </div><!--/Row-->
+
+    </div>
+
+    <!--Arrow button to contact-->
+    <div class="text-center">
+      <a href="#contact">
+        <button type="button" class="btn scroll-btn" enabled><img
+            src="https://cloudcar.com/wp-content/uploads/2018/06/gif-bounce-arrow.gif" width="60%" /></button></a>
+    </div>
+  </div>
+
+  <!--CONTACT SECITON-->
+  <div class="jumbotron jumbotron-fluid contact" id="contact">
+    <section class="contact-info">
+      <h1>Contact Information</h1>
+      <!--Phone-->
+      <h2>Phone: (336) 953-7561</h2>
+      <!--email-->
+      <h2>Email: <a href="mailto: ivieking@gmail.com" id="email">ivieking@gmail.com</a></h2>
+
+      <div class="row icon-row justify-content-center">
+
+        <!--linked-in-->
+        <a href="https://www.linkedin.com/in/ivy-bean-1409341ab/" class="fa fa-linkedin" target="_blank"
+          style="align-items: center"></a>
+        <!--github-->
+        <a href="https://github.com/ivybean" class="fa fa-github" target="_blank" style="align-items: center"></a>
+    </section>
+  </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-bottom" style="background-color: rgba(42, 27, 161, 0.7)">
+      <div class="footer">
+        <div class="footer-card">Copyright &copy; 2020 Ivy Bean</a>
+        </div>
+    </nav>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>

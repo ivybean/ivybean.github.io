@@ -1,0 +1,216 @@
+.intro {
+  background-image: linear-gradient(to bottom, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7));
+  color: white;
+}
+
+img {
+  min-width: 300px;
+}
+
+.col-img{
+  align-items: center;
+}
+
+.row {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/*Header and Footer*/
+header { 
+  border-bottom: 13px solid white;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.nav-item {
+  color: white;
+  font-size: 18px;
+} 
+.nav-link:hover {
+  color:#ffb4a2;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: #eee;
+  background-color: rgba(42, 27, 161, 0.7);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.navbar-brand:focus {
+  outline: none !important;
+}
+
+footer {
+  border-top: 3px solid white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index:3;
+}
+
+.footer-card {
+  color: white;
+  border-radius: 5px;
+}
+
+.bio { 
+  padding-top: 30px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*Porfolio*/
+.portfolio {
+  background-image: linear-gradient(to top, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7));
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.card-info{
+  vertical-align: center;
+  clear: both;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  height:450px;
+  opacity:0;
+  transition: opacity 0.25s ease;
+  z-index: 3;
+}
+
+.card-info:hover {
+  opacity:0.8;
+  z-index: 3;
+  background-color: rgb(28, 29, 28);
+  border-radius: 10px;
+}
+
+.card{
+  margin-top: 20 px;
+  height:357px;
+  /* z-index:2; */
+}
+
+.card-img {
+  position:absolute;
+  top:0%;
+  left:0%;
+  width:100%;
+  height:100%;
+  transition: opacity 0.25s ease;
+}
+
+.card-img:hover{
+  opacity:0.1;
+  z-index: 1;
+}
+
+.project-title {
+  font-size: 45px;
+  padding: 15px;
+}
+
+.project-description {
+  font-size: 25px;
+  text-align: left;
+  padding: 18px;
+}
+
+#repo, #deployed {
+  color: white;
+  text-decoration: underline;
+  line-height: 45px;
+}
+
+#repo:hover, #deployed:hover {
+  color: rgba(29, 210, 177, 0.7);
+}
+
+/*Contact*/
+.contact {
+  background-image: linear-gradient(to bottom, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7));
+  color: white;
+  padding-top: 0;
+}
+
+label{
+  margin: 5px;
+}
+
+input[type=text], textarea, input{
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 10px;
+  margin-bottom: 15px;
+  resize: both;
+  width: 98%;
+}
+
+input[type=submit]{
+  background-color: #ffb4a2;
+  color: rgba(42, 27, 161, 0.7);
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact-info{
+  width: 100%;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#email {
+ color: white;
+ text-decoration: underline;
+}
+
+.icon-row {
+  margin-top: 10px;
+}
+
+.fa{
+  clear: both;
+  font-size: 50px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.fa-linkedin:hover, .fa-github:hover {
+  color: rgba(29, 210, 177, 0.7);
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 5px;
+}
+
+.fa-github{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
