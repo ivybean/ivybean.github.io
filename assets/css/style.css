@@ -78,6 +78,15 @@ p{
   margin-top: 10px;
 }
 
+.btn-block {
+  display: block;
+  width: 40%;
+  border: 3px;
+  border-color: black;
+  margin: 0 auto;
+  background-color: coral;
+}
+
 .card-title{
   clear: both;
   font-size: 45px;

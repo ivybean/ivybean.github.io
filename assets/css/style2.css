@@ -3,8 +3,7 @@
   color: white;
   font-family: 'Space Mono', monospace;
 }
-/* 
-font-family: 'Inknut Antiqua', serif; */
+
 
 .bio-img {
   height: 400px;
@@ -78,6 +77,22 @@ footer {
 .portfolio {
   background-image: linear-gradient(to top, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7));
   color: white;
+}
+
+.btn-block {
+  display: block;
+  width: 400px;
+  font-size: 35px;
+  border-color: white;
+  margin: 0 auto;
+  background-color: rgba(43, 27, 161, 0.488);
+  color: aliceblue;
+  font-family: 'Poiret One', cursive;
+}
+
+.btn-block:hover {
+  color: rgba(29, 210, 177, 0.7);
+  border-color: rgba(43, 27, 161, 0.488);
 }
 
 h1 {
