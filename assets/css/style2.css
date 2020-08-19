@@ -95,6 +95,10 @@ footer {
   border-color: rgba(43, 27, 161, 0.488);
 }
 
+iframe {
+  height: 600px;
+}
+
 h1 {
   font-size: 60px;
   text-align: center;
