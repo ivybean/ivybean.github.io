@@ -85,9 +85,11 @@ footer {
   font-size: 35px;
   border-color: white;
   margin: 0 auto;
+  margin-bottom: 15px;
   background-color: rgba(43, 27, 161, 0.488);
   color: aliceblue;
   font-family: 'Poiret One', cursive;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 .btn-block:hover {
@@ -131,6 +133,7 @@ h1 {
 .card{
   margin-top: 20 px;
   height:357px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
   /* z-index:2; */
 }
 
