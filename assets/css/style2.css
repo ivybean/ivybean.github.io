@@ -225,6 +225,14 @@ h2 {
   border-radius: 5px;
 }
 
+.toolsList1 {
+  text-align: right;
+}
+
+.skillsDiv {
+  margin-top: 40px;
+}
+
 /*Media Queries */
 @media screen and (max-width: 500px)
  {
